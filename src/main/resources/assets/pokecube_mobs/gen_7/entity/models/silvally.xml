@@ -2,25 +2,9 @@
 <ModelAnimator>
  <model>
   <phase name="global" offset="0,0,0" rotation="1,0,0,0" scale="0.28"/>
-  <customTex default="Silvally">
-   <forme name="Silvally" tex="silvally"/>
-   <forme name="Silvally Bug" tex="silvallybug"/>
-   <forme name="Silvally Dark" tex="silvallydark"/>
-   <forme name="Silvally Dragon" tex="silvallydragon"/>
-   <forme name="Silvally Electric" tex="silvallyelectric"/>
-   <forme name="Silvally Fairy" tex="silvallyfairy"/>
-   <forme name="Silvally Fighting" tex="silvallyfighting"/>
-   <forme name="Silvally Fire" tex="silvallyfire"/>
-   <forme name="Silvally Flying" tex="silvallyflying"/>
-   <forme name="Silvally Ghost" tex="silvallyghost"/>
-   <forme name="Silvally Grass" tex="silvallygrass"/>
-   <forme name="Silvally Ground" tex="silvallyground"/>
-   <forme name="Silvally Ice" tex="silvallyice"/>
-   <forme name="Silvally Poison" tex="silvallypoison"/>
-   <forme name="Silvally Psychic" tex="silvallypsychic"/>
-   <forme name="Silvally Rock" tex="silvallyrock"/>
-   <forme name="Silvally Steel" tex="silvallysteel"/>
-   <forme name="Silvally Water" tex="silvallywater"/>
+  <customTex default="silvally">
+   <part name="Head" tex="silvallyhead"/>
+   <animation diffs="0,0.35" part="Head" trigger="random:0.005:20"/>
   </customTex>
   <metadata head="head" headAxis="2" headAxis2="0" headCap="-80,80" headCap1="-50,50" headDir="-1"/>
   <metadata head="neck" headAxis="2" headAxis2="0" headCap="-30,30" headCap1="-10,10" headDir="-1"/>

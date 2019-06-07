@@ -3,6 +3,10 @@
  <model>
   <phase name="global" offset="0,0,0" rotation="1,0,0,0" scale="0.22"/>
   <phase duration="6" leftArm="" leftLeg="foot1" legAngle="25" name="biWalk" rightArm="" rightLeg="foot2"/>
+  <customTex default="spritzee">
+   <part name="Head" tex="spritzeehead"/>
+   <animation diffs="0.5,0" part="Head" trigger="random:0.005:20"/>
+  </customTex>
   <phase type="idle">
    <part name="wing1">
     <component length="10" name="1" rotOffset="20,80,0" startKey="0"/>
